@@ -1,0 +1,49 @@
+/* Full-page background */
+.profile-bg {
+  background-image: url('/assets/profile/profile-bg.png'); /* Path ke file gambar */
+  background-size: cover; /* Gambar memenuhi layar */
+  background-repeat: no-repeat; /* Tidak diulang */
+  background-position: center; /* Gambar di tengah */
+}
+
+/* Card Styling */
+.profile-card {
+  max-width: 700px; /* Lebar maksimal card */
+  width: 100%; /* Lebar responsif */
+  display: flex; /* Flexbox untuk memisahkan gambar dan informasi */
+  gap: 2rem; /* Jarak antara gambar dan form */
+}
+
+.profile-card label {
+  font-weight: 600; /* Label lebih tegas */
+}
+
+.profile-card input {
+  padding: 0.75rem 1rem; /* Tambahkan ruang dalam */
+  border-radius: 50px; /* Bentuk melingkar */
+}
+
+.profile-card button {
+  font-weight: bold; /* Tulisan tombol lebih tebal */
+  width: 48%; /* Tombol responsif */
+}
+
+/* Profile Picture */
+.profile-picture img {
+  width: 150px; /* Ukuran gambar profil */
+  height: 150px; /* Tinggi gambar profil */
+  object-fit: cover; /* Gambar tetap proporsional */
+  border: 3px solid #ffffff; /* Border putih */
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+  .profile-card {
+      flex-direction: column; /* Layout vertikal di layar kecil */
+      align-items: center; /* Gambar tetap di tengah */
+  }
+  .profile-card button {
+      width: 100%; /* Tombol full width di layar kecil */
+      margin-bottom: 1rem; /* Tambahkan jarak antar tombol */
+  }
+}

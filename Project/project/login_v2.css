@@ -1,0 +1,26 @@
+/* Full-page background */
+body {
+    background-image: url('/assets/login/signin-bg.png'); /* Ganti 'path/to/your/image.png' dengan path file */
+    background-size: cover; /* Gambar memenuhi layar */
+    background-repeat: no-repeat; /* Gambar tidak diulang */
+    background-position: center center; /* Gambar terpusat */
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Styling */
+.signin-form {
+    max-width: 400px; /* Lebar maksimal form */
+    width: 100%; /* Lebar responsif */
+}
+
+/* Input and Button Styling */
+input.form-control {
+    border-radius: 50px; /* Membuat input berbentuk lebih halus */
+    padding: 0.75rem 1rem; /* Ruang dalam input */
+}
+
+button.btn {
+    border-radius: 50px; /* Tombol juga berbentuk lebih halus */
+    padding: 0.75rem 1rem;
+}

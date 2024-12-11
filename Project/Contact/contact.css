@@ -1,0 +1,50 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.navbar {
+    background-color: #C62E2E; /* Warna navbar */
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+/* Content Section */
+main {
+    background-color: #fff;
+}
+
+.contact-header {
+    font-size: 2rem;
+    color: #0D92F4; /* Warna teks header */
+}
+
+.contact-email {
+    font-size: 1.5rem;
+    color: #0D92F4; /* Warna teks email */
+    font-weight: bold;
+}
+
+/* Footer */
+.footer {
+    background-color: #C62E2E; /* Warna footer */
+    color: #fff;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}

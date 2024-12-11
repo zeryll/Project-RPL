@@ -1,0 +1,35 @@
+/* Full-page background */
+.signup-bg {
+    background-image: url('/assets/register/signup-bg.png'); /* Path ke file gambar */
+    background-size: cover; /* Gambar memenuhi layar */
+    background-repeat: no-repeat; /* Tidak diulang */
+    background-position: center; /* Gambar di tengah */
+}
+
+/* Form Styling */
+.signup-form {
+    max-width: 400px; /* Lebar maksimal form */
+    width: 100%; /* Lebar responsif */
+}
+
+.signup-form label {
+    font-weight: 600; /* Label lebih tegas */
+}
+
+.signup-form input,
+.signup-form select,
+.signup-form button {
+    padding: 0.75rem 1rem; /* Tambahkan ruang dalam */
+    border-radius: 50px; /* Bentuk melingkar */
+}
+
+.signup-form button {
+    font-weight: bold; /* Tulisan tombol lebih tebal */
+}
+
+/* Responsive Design */
+@media (max-width: 576px) {
+    .signup-form {
+        padding: 2rem; /* Ruang lebih kecil di layar kecil */
+    }
+}
